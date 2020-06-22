@@ -21,8 +21,15 @@ body {
   background-color: grey;
   height: 500px;
 }
-div {
-  color: white;
+.picture-container {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-evenly;
+}
+img {
+  width: 30%;
 }
 a {
   text-decoration: none;
