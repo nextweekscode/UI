@@ -32,21 +32,22 @@ body {
   background: #FEC774;
 }
 figcaption {
-  color: white;
+  color: #212121;
   text-align: center;
   font-size: 2.5rem;
 }
-a {
+a[role="link"] {
   text-decoration: none;
-  color: white;
+  color: #212121;
+  padding: 0.5%;
 }
-a:hover {
+a[role="link"]:hover {
   color: #C07707;
-  background-color: white;
+  background-color: #212121;
 }
 h2 {
   background-color: #FEC774;
-  color: white;
+  color: #212121;
   text-align: center;
   width: 20%;
   margin-top: 15%;
@@ -57,10 +58,11 @@ h2 {
 }
 p {
   background-color: #FEC774;
-  color: white;
+  color: #212121;
   text-align: center;
   width: 35%;
   font-size: 1.5rem;
+  font-style: italic;
   padding: 2%;
   line-height: 2;
 }
@@ -75,8 +77,8 @@ footer {
 }
 @media (max-width: 500px) {
   p {
-    width: 50%;
-    margin-left: 30%;
+    width: 45%;
+    margin-left: 35%;
   }
   footer {
     margin-top: 100%;

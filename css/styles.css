@@ -22,19 +22,20 @@ body {
   height: 500px;
 }
 div {
-  color: white;
+  color: #212121;
 }
-a {
+a[role="link"] {
   text-decoration: none;
-  color: white;
+  color: #212121;
+  padding: 0.5%;
 }
-a:hover {
+a[role="link"]:hover {
   color: #C07707;
-  background-color: white;
+  background-color: #212121;
 }
 h2 {
   background-color: #FEC774;
-  color: white;
+  color: #212121;
   text-align: center;
   width: 20%;
   margin-top: 15%;
@@ -45,7 +46,7 @@ h2 {
 }
 p {
   background-color: #FEC774;
-  color: white;
+  color: #212121;
   text-align: center;
   width: 40%;
   margin-bottom: 15%;
@@ -65,8 +66,10 @@ footer {
 }
 @media (max-width: 500px) {
   p {
-    width: 45%;
-    margin-left: 25%;
+    width: 55%;
+  }
+  h2 {
+    margin-left: 80%;
   }
   footer {
     margin-top: 100%;
@@ -74,7 +77,7 @@ footer {
 }
 @media (max-width: 800px) {
   p {
-    width: 45%;
+    width: 75%;
     margin-left: 25%;
   }
   footer {
