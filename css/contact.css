@@ -3,7 +3,6 @@
   margin: 0;
   padding: 0;
   max-width: 100%;
-  border: 1px solid red;
 }
 header {
   background-color: #C07707;
@@ -78,9 +77,12 @@ footer {
   }
 }
 @media (max-width: 800px) {
+  h2 {
+    margin-left: 80%;
+  }
   p {
     width: 75%;
-    margin-left: 25%;
+    margin-left: 75%;
   }
   footer {
     margin-top: 100%;
