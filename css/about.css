@@ -26,7 +26,7 @@ body {
   flex-wrap: wrap;
   align-items: flex-start;
   align-content: center;
-  width: 90%;
+  width: 70%;
   margin-left: 10%;
   background: #FEC774;
 }
@@ -48,11 +48,11 @@ h2 {
   background-color: #FEC774;
   color: #212121;
   text-align: center;
+  text-decoration: underline;
   width: 20%;
   margin-top: 15%;
-  margin-left: 80%;
+  margin-left: 59.9%;
   font-size: 1.5rem;
-  border: 1px solid black;
   border-bottom: none;
 }
 p {
@@ -64,6 +64,7 @@ p {
   font-style: italic;
   padding: 2%;
   line-height: 2;
+  margin-left: 5%;
 }
 footer {
   background-color: #C07707;
