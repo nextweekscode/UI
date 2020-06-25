@@ -11,6 +11,9 @@ header {
   text-align: right;
   word-spacing: 1rem;
 }
+.logo {
+  color: #212121;
+}
 a.login {
   border: 2px solid black;
   border-radius: 20%;
@@ -90,7 +93,7 @@ footer {
   }
   p {
     width: 60%;
-    margin-left: 45%;
+    margin-left: 50%;
     font-size: 1.5rem;
     padding: 1%;
   }
